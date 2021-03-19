@@ -13,10 +13,12 @@ import java.util.Collection;
  * @Description: 声明式接口
  * @Version 1.0
  */
+
+// value 说明访问的服务提供者。
 @FeignClient(value = "provider",fallback = FeignError.class)
 public interface  FeignProviderClient {
 
-
+    // 只需要生命接口，通过注解完成映射
     @GetMapping("/student/findAll")
     public Collection<Student> findAll();
 

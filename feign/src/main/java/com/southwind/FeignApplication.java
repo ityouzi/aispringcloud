@@ -7,12 +7,12 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 /**
  * @Auther: Liberal-World
  * @Date: 2019-09-20 21:26
- * @Description: feign客户端
+ * @Description: feign客户端,基于ribbon的封装，实现负载均衡
  * @Version 1.0
  */
 
 @SpringBootApplication
-@EnableFeignClients
+@EnableFeignClients  // feign 客户端
 public class FeignApplication {
     public static void main(String[] args) {
         SpringApplication.run(FeignApplication.class,args);

@@ -18,3 +18,6 @@ management:                         #监控节点
     web:
       exposure:
         include: 'hystrix.stream'
+
+## http://localhost:8060/actuator/hystrix.stream 可监控请求数据
+## http://localhost:8060/hystrix 可视化监控，输入地址节点，即可看到该节点的数据监控

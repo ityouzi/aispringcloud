@@ -9,4 +9,5 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 zuul:
   routes:
-    provider: /p/**       #给服务提供者 provider 设置映射
+    provider: /p/**       #给服务提供者 provider 设置映射(P别名代表prodiver)
+    feign: /f/**

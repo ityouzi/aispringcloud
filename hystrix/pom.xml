@@ -24,6 +24,7 @@
             <version>2.0.2.RELEASE</version>
         </dependency>
 
+        <!--服务健康监控、数据统计-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
@@ -34,7 +35,7 @@
             <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
             <version>2.0.2.RELEASE</version>
         </dependency>
-        <!--仪表盘-->
+        <!--可视化的监控组件：仪表盘-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>

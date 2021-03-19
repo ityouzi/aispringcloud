@@ -18,6 +18,8 @@
         <module name="resttemplate" />
         <module name="ribbon" />
         <module name="template" />
+        <module name="zipkin" />
+        <module name="zipkinclient" />
         <module name="zuul" />
       </profile>
     </annotationProcessing>
@@ -39,6 +41,8 @@
       <module name="resttemplate" options="-parameters" />
       <module name="ribbon" options="-parameters" />
       <module name="template" options="-parameters" />
+      <module name="zipkin" options="-parameters" />
+      <module name="zipkinclient" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
   </component>
